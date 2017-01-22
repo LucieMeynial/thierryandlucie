@@ -45,9 +45,9 @@
 		//DEFINE MAP OPTIONS
 		//=======================================================================================
   		var mapOptions = {
-    		zoom: 10,		
+    		zoom: 11,		
 			mapTypeId: google.maps.MapTypeId.ROADMAP,	
-    		center: new google.maps.LatLng(35.393933, -97.387230),
+    		center: new google.maps.LatLng(43.5752496, 1.6278423),
   			zoomControl: true,
   			mapTypeControl: true,
   			//scaleControl: false,
@@ -89,81 +89,81 @@
 		//ADD NEW MARKER WITH LABEL
 		//=======================================================================================
 		var marker1 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.393933, -97.387230),
+       		position: new google.maps.LatLng(43.5183846, 1.786716),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
        		map: map, 
-         	labelContent: '<div id="wedding-marker" class="main-icon-wrapper"><div class="big-circle scale-animation"></div><div class="main-icon-text">Wedding</br>Location</div></div>',
+         	labelContent: '<div id="wedding-marker" class="main-icon-wrapper"><div class="big-circle scale-animation"></div><div class="main-icon-text">Wedding</br>Ceremony</div></div>',
        		labelAnchor: new google.maps.Point(90, 90),
        		labelClass: "labels" // the CSS class for the label
      		});
     
 		var marker2 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.483442, -97.641289),
+       		position: new google.maps.LatLng(43.599905, 1.4483294),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
        		map: map, 
-         	labelContent: '<div id="taxi-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-taxi"></i></div>',
+         	labelContent: '<div id="bell-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-bell"></i></div>',
        		labelAnchor: new google.maps.Point(35, 35),
        		labelClass: "labels" // the CSS class for the label
      		});
 			
-		var marker3 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.615287, -97.118065),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="restaurant-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-food"></i></div>',
-       		labelAnchor: new google.maps.Point(35, 35),
-       		labelClass: "labels" // the CSS class for the label
-     		});
-			
-		var marker4 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.492388, -96.961510),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="shop-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-basket"></i></div>',
-       		labelAnchor: new google.maps.Point(35, 35),
-       		labelClass: "labels" // the CSS class for the label
-     		});
-			
-		var marker5 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.257239, -97.015068),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="park-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-tree"></i></div>',
-       		labelAnchor: new google.maps.Point(35, 35),
-       		labelClass: "labels" // the CSS class for the label
-     		});	
-		
-		var marker6 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.146631, -97.325151),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="toy-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-paper-plane"></i></div>',
-       		labelAnchor: new google.maps.Point(35, 35),
-       		labelClass: "labels" // the CSS class for the label
-     		});	
-			
-		var marker7 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.313289, -97.804710),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="coffee-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-coffee"></i></div>',
-       		labelAnchor: new google.maps.Point(35, 35),
-       		labelClass: "labels" // the CSS class for the label
-     		});			
+        // var marker3 = new MarkerWithLabel({
+        //                position: new google.maps.LatLng(35.615287, -97.118065),
+        //                draggable: false,
+        //                raiseOnDrag: false,
+        //                icon: ' ',
+        //                map: map,
+        //              labelContent: '<div id="restaurant-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-food"></i></div>',
+        //                labelAnchor: new google.maps.Point(35, 35),
+        //                labelClass: "labels" // the CSS class for the label
+        //              });
+        //
+        // var marker4 = new MarkerWithLabel({
+        //                position: new google.maps.LatLng(35.492388, -96.961510),
+        //                draggable: false,
+        //                raiseOnDrag: false,
+        //                icon: ' ',
+        //                map: map,
+        //              labelContent: '<div id="shop-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-basket"></i></div>',
+        //                labelAnchor: new google.maps.Point(35, 35),
+        //                labelClass: "labels" // the CSS class for the label
+        //              });
+        //
+        // var marker5 = new MarkerWithLabel({
+        //                position: new google.maps.LatLng(35.257239, -97.015068),
+        //                draggable: false,
+        //                raiseOnDrag: false,
+        //                icon: ' ',
+        //                map: map,
+        //              labelContent: '<div id="park-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-tree"></i></div>',
+        //                labelAnchor: new google.maps.Point(35, 35),
+        //                labelClass: "labels" // the CSS class for the label
+        //              });
+        //
+        // var marker6 = new MarkerWithLabel({
+        //                position: new google.maps.LatLng(35.146631, -97.325151),
+        //                draggable: false,
+        //                raiseOnDrag: false,
+        //                icon: ' ',
+        //                map: map,
+        //              labelContent: '<div id="toy-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-paper-plane"></i></div>',
+        //                labelAnchor: new google.maps.Point(35, 35),
+        //                labelClass: "labels" // the CSS class for the label
+        //              });
+        //
+        // var marker7 = new MarkerWithLabel({
+        //                position: new google.maps.LatLng(35.313289, -97.804710),
+        //                draggable: false,
+        //                raiseOnDrag: false,
+        //                icon: ' ',
+        //                map: map,
+        //              labelContent: '<div id="coffee-marker" class="de-icon circle medium-size animation fadeIn" style="background-color:rgba(255, 255, 255, 0.8); color:#333333; font-size:24px;"><i class="de-icon-coffee"></i></div>',
+        //                labelAnchor: new google.maps.Point(35, 35),
+        //                labelClass: "labels" // the CSS class for the label
+        //              });
     	//marker.setMap( map );
 		
 		
@@ -171,14 +171,14 @@
 		//=======================================================================================
 		var contentString1 = ''+
 		'<div class="info-window-wrapper">'+
-			'<h5>Wedding Ceremony</h5>'+
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur.<br/><a href="#" class="with-underline">Click Here</a></div>'+
+			'<h5>Wedding Reception</h5>'+
+			'<div class="info-window-desc">Château Du Croisillat, Caraman<br/><a href="https://www.google.ca/maps/place/Ch%C3%A2teau+du+Croisillat/@43.5183846,1.7889047,15z/data=!4m5!3m4!1s0x0:0xcb14dc19df26abff!8m2!3d43.5183846!4d1.7889047" class="with-underline">Click Here</a></div>'+
       	'</div>';
 		
 		var contentString2 = ''+
 		'<div class="info-window-wrapper">'+
-			'<h5>Taxi Station</h5>'+
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur.</div>'+
+			'<h5>Religious Ceremony</h5>'+
+			'<div class="info-window-desc">Saint Stephen\'s Cathedral, Toulouse<br/><a href="https://www.google.ca/maps/place/Saint+Stephen\'s+Cathredal/@43.599905,1.4483241,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebc9b492164d5:0x7fa6cb236d2a83da!8m2!3d43.599905!4d1.4505181" class="with-underline">Click Here</a></div>'+
       	'</div>';
 		
 		var contentString3 = ''+
@@ -224,35 +224,35 @@
 			pixelOffset: new google.maps.Size(0,0)
   		});	
 		
-		var marker3_infowindow = new google.maps.InfoWindow({
-      		content: contentString3,
-			maxWidth: 300,
-			pixelOffset: new google.maps.Size(0,0)
-  		});	
-		
-		var marker4_infowindow = new google.maps.InfoWindow({
-      		content: contentString4,
-			maxWidth: 300,
-			pixelOffset: new google.maps.Size(0,0)
-  		});	
-		
-		var marker5_infowindow = new google.maps.InfoWindow({
-      		content: contentString5,
-			maxWidth: 300,
-			pixelOffset: new google.maps.Size(0,0)
-  		});	
-		
-		var marker6_infowindow = new google.maps.InfoWindow({
-      		content: contentString6,
-			maxWidth: 300,
-			pixelOffset: new google.maps.Size(0,0)
-  		});	
-		
-		var marker7_infowindow = new google.maps.InfoWindow({
-      		content: contentString7,
-			maxWidth: 300,
-			pixelOffset: new google.maps.Size(0,0)
-  		});		
+        var marker3_infowindow = new google.maps.InfoWindow({
+                      content: contentString3,
+            maxWidth: 300,
+            pixelOffset: new google.maps.Size(0,0)
+                  });
+
+        var marker4_infowindow = new google.maps.InfoWindow({
+                      content: contentString4,
+            maxWidth: 300,
+            pixelOffset: new google.maps.Size(0,0)
+                  });
+
+        var marker5_infowindow = new google.maps.InfoWindow({
+                      content: contentString5,
+            maxWidth: 300,
+            pixelOffset: new google.maps.Size(0,0)
+                  });
+
+        var marker6_infowindow = new google.maps.InfoWindow({
+                      content: contentString6,
+            maxWidth: 300,
+            pixelOffset: new google.maps.Size(0,0)
+                  });
+
+        var marker7_infowindow = new google.maps.InfoWindow({
+                      content: contentString7,
+            maxWidth: 300,
+            pixelOffset: new google.maps.Size(0,0)
+                  });
 		
 		
 		
@@ -271,34 +271,34 @@
 			marker2_infowindow.open(map,marker2);
   		});	
 		
-		google.maps.event.addListener(marker3, 'click', function() {   	 	
-			marker3_infowindow.open(map,marker3);
-  		});
-		
-		google.maps.event.addListener(marker4, 'click', function() {   	 	
-			marker4_infowindow.open(map,marker4);
-  		});
-		
-		google.maps.event.addListener(marker5, 'click', function() {   	 	
-			marker5_infowindow.open(map,marker5);
-  		});
-		
-		google.maps.event.addListener(marker6, 'click', function() {   	 	
-			marker6_infowindow.open(map,marker6);
-  		});
-		
-		google.maps.event.addListener(marker7, 'click', function() {   	 	
-			marker7_infowindow.open(map,marker7);
-  		});
-		
+        // google.maps.event.addListener(marker3, 'click', function() {
+        //     marker3_infowindow.open(map,marker3);
+        //           });
+        //
+        // google.maps.event.addListener(marker4, 'click', function() {
+        //     marker4_infowindow.open(map,marker4);
+        //           });
+        //
+        // google.maps.event.addListener(marker5, 'click', function() {
+        //     marker5_infowindow.open(map,marker5);
+        //           });
+        //
+        // google.maps.event.addListener(marker6, 'click', function() {
+        //     marker6_infowindow.open(map,marker6);
+        //           });
+        //
+        // google.maps.event.addListener(marker7, 'click', function() {
+        //     marker7_infowindow.open(map,marker7);
+        //           });
+
 		
 		//ON INFO WINDOW CLOSE CLICK EVENTS
 		//=======================================================================================	
-		google.maps.event.addListener(marker3_infowindow, 'closeclick', function() {   	 	
-			window.setTimeout(function() {
-      			map.panTo(marker1.getPosition());
-    		}, 500);
-  		});
+        // google.maps.event.addListener(marker3_infowindow, 'closeclick', function() {
+        //     window.setTimeout(function() {
+        //                   map.panTo(marker1.getPosition());
+        //             }, 500);
+        //           });
 		
 		
 		//ON BOUND EVENTS AND WINDOW RESIZE
