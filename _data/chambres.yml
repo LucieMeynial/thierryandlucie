@@ -1,0 +1,16 @@
+- name: "Le Lac de Crivito"
+  distance: "500m"
+  url: "http://www.lelacdecrivito.eu/"
+  details:
+      - "4 chambres (2-4 pers.) d’hôtes labellisées 4 épis aux Gîtes de France"
+      - "100 – 120 euros"
+      - "Min 3 nuits"
+      
+
+- name: "Domaine en Castanet"
+  distance: "3km"
+  url: "http://www.domaineencastanet.com/index.html"
+  details:
+      - "Une chambre double: 75 euros"
+      - "Une suite familiale de deux pièces pouvant accueillir 4 personnes: 100 euros"
+      - "Possibilité de rajouter un lit d'enfant supplémentaire (supplément : 10€)"
