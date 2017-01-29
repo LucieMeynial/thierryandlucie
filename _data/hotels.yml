@@ -1,7 +1,8 @@
-- name: Hôtel Restaurant La Bombardière
-  distance: 20km
-  url: http://www.hotel-restaurant-la-bombardiere.fr/mobile/
+- name: "Hôtel Restaurant La Bombardière"
+  distance: "20km"
+  url: "http://www.hotel-restaurant-la-bombardiere.fr/mobile/"
   details:
+      - "nombre de chambres?"
       
       
 
