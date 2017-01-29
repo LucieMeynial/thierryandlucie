@@ -1,0 +1,32 @@
+---
+layout: null
+---
+
+<div id="popup-template">
+
+
+    <!-- CONTENT -->
+    <div id="the-content">                    
+        
+        <h3>Château du<span class="theme-color"> Croisillat</span></h3>
+        
+        <p>Il y a un nombre limité de chambres sur place au Château du Croisillat. Vous trouverez ci-dessous les détails et les tarifs de ces chambres. </p>
+        <p>Une fois intéressé par une chambre, vous pouvez reserver votre chambre <a class="bold400" href="http://doodle.com/poll/s295g7rvnads5g7y">en remplissant ce formulaire</a>. Pour le paiement, nous vous donnerons plus d'information plus tard.
+        </p>
+                
+        {% for e in site.data.chateau %}
+        <div class="ts-location row">
+            <div class="ts-title col-md-6 bold400">{{e.name}}</div>
+            <div class="ts-distance col-md-6">{{e.price}}</div>
+            <div class="ts-details col-md-12">
+                <ul>
+                    {% for d in e.details %}
+                    <li>{{d}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div><!--End of CONTENT-->
+    
+</div><!--End of POPUP TEMPLATE 1-->

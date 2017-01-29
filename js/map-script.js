@@ -94,7 +94,7 @@
            		raiseOnDrag: false,
            		icon: ' ',
            		map: map, 
-             	labelContent: '<div id="ceremony-marker" class="main-icon-wrapper"><div class="big-circle scale-animation"></div><div class="main-icon-text">Wedding</br>Ceremony</div></div>',
+             	labelContent: '<div id="ceremony-marker" class="main-icon-wrapper"><div class="big-circle scale-animation"></div><div class="main-icon-text">Cérémonie</br>Religieuse</div></div>',
            		labelAnchor: new google.maps.Point(90, 90),
            		labelClass: "labels" // the CSS class for the label
          		});
@@ -105,7 +105,7 @@
        		raiseOnDrag: false,
        		icon: ' ',
        		map: map, 
-         	labelContent: '<div id="reception-marker" class="main-icon-wrapper"><div class="big-circle scale-animation"></div><div class="main-icon-text">Wedding</br>Reception</div></div>',
+         	labelContent: '<div id="reception-marker" class="main-icon-wrapper"><div class="big-circle scale-animation"></div><div class="main-icon-text">Réception</div></div>',
        		labelAnchor: new google.maps.Point(90, 35),
        		labelClass: "labels" // the CSS class for the label
      		});
@@ -171,14 +171,14 @@
 		//=======================================================================================
 	var contentString1 = ''+
 	'<div class="info-window-wrapper">'+
-		'<h5>15h00 Wedding Ceremony</h5>'+
-		'<div class="info-window-desc">Cathédrale Saint-Etienne, Toulouse<br/><a href="https://www.google.ca/maps/place/Saint+Stephen\'s+Cathredal/@43.599905,1.4483241,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebc9b492164d5:0x7fa6cb236d2a83da!8m2!3d43.599905!4d1.4505181" class="with-underline">Click Here</a></div>'+
+		'<h5>15h00 Cérémonie Religieuse</h5>'+
+		'<div class="info-window-desc">Cathédrale Saint-Etienne, Toulouse<br/><a href="https://www.google.ca/maps/place/Saint+Stephen\'s+Cathredal/@43.599905,1.4483241,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebc9b492164d5:0x7fa6cb236d2a83da!8m2!3d43.599905!4d1.4505181" class="with-underline">cliquez ici</a></div>'+
   	'</div>';
         
         var contentString2 = ''+
 		'<div class="info-window-wrapper">'+
-			'<h5>18h00 Wedding Reception</h5>'+
-			'<div class="info-window-desc">Château Du Croisillat, Caraman<br/><a href="https://www.google.ca/maps/place/Ch%C3%A2teau+du+Croisillat/@43.5183846,1.7889047,15z/data=!4m5!3m4!1s0x0:0xcb14dc19df26abff!8m2!3d43.5183846!4d1.7889047" class="with-underline">Click Here</a></div>'+
+			'<h5>18h00 Réception</h5>'+
+			'<div class="info-window-desc">Château Du Croisillat, Caraman<br/><a href="https://www.google.ca/maps/place/Ch%C3%A2teau+du+Croisillat/@43.5183846,1.7889047,15z/data=!4m5!3m4!1s0x0:0xcb14dc19df26abff!8m2!3d43.5183846!4d1.7889047" class="with-underline">cliquez ici</a></div>'+
       	'</div>';
 		
 		var contentString3 = ''+

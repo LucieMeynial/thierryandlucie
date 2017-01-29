@@ -1,0 +1,37 @@
+- name: "Chambre #12"
+  price: "80€"
+  details:
+      - "lit 120 x 190"
+      - "salle de bain et toilettes communes avec les chambres #14 et #15"
+
+- name: "Chambre #14"
+  price: "100€"
+  details:
+      - "lit 140 x 190"
+      - "salle de bain et toilettes communes avec les chambres #12 et #15"
+
+- name: "Chambre #15"
+  price: "120€"
+  details:
+      - "lit 90x190"
+      - "salle de bain et toilettes communes avec les chambres #12 et #14"
+
+- name: "Petit Gite"
+  price: "45€/personne et 20€/enfant"
+  details: 
+      - "3 chambres"
+      - "lit 140 x 190"
+      - "lit 140 x 190"
+      - "2 lits 90x 190"
+      - "salle de bain et toilettes communes pour le Petit Gite"
+      
+- name: "Grand Gite"
+  price: "45€/personne et 20€/enfant"
+  details:
+      - "3 chambres et un salon"
+      - "lit 160 x 190"
+      - "lit 140 x 190"
+      - "lit 140 x 190"
+      - "un canapé lit au rez-de-chaussée (offert)"
+      - "salle de bain et toilettes communes pour le Petit Gite"
+      

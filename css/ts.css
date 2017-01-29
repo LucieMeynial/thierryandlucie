@@ -1,0 +1,30 @@
+.ts-location{
+    margin-top: 20px;
+}
+
+.ts-distance{
+    text-align:right;
+    font-style: italic;
+}
+
+.ts-icon-castle{
+    background:url('./ts-icons/castle.png');
+}
+
+.ts-icon-room{
+    background:url('./ts-icons/room.png');
+}
+
+.ts-icon-hotel{
+    background:url('./ts-icons/hotel.png');
+}
+
+.ts-icon{
+    width: 42px;
+    height:42px;
+    position:absolute;
+    left: -70px;
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;
+}
