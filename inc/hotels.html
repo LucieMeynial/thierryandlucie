@@ -1,0 +1,24 @@
+---
+layout: null
+---
+
+<div id="popup-template">
+    
+    <!-- CONTENT -->
+    <div id="the-content">                    
+        {% for e in site.data.hotels %}
+        <div id="ts-location">
+            <div id="ts-title" class="bold400"><a href="{{e.url}}">{{e.name}}</a></div>
+            <div id="ts-distance">{{e.distance}}</div>
+            <div id="ts-details">
+                <ul>
+                    {% for d in e.details %}
+                    <li>{{d}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div><!--End of CONTENT-->
+    
+</div><!--End of POPUP TEMPLATE 1-->
