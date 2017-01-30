@@ -1,16 +1,101 @@
 - name: "Le Lac de Crivito"
-  distance: "500m"
+  distance: "500m du Château"
   url: "http://www.lelacdecrivito.eu/"
   details:
       - "4 chambres (2-4 pers.) d’hôtes labellisées 4 épis aux Gîtes de France"
-      - "100 – 120 euros"
-      - "Min 3 nuits"
+      - "100–120€"
+      - "Min. 3 nuits"
       
 
 - name: "Domaine en Castanet"
-  distance: "3km"
+  distance: "3km du Château"
   url: "http://www.domaineencastanet.com/index.html"
   details:
-      - "Une chambre double: 75 euros"
-      - "Une suite familiale de deux pièces pouvant accueillir 4 personnes: 100 euros"
-      - "Possibilité de rajouter un lit d'enfant supplémentaire (supplément : 10€)"
+      - "Lieu de charme et d'exception" 
+      - "Une chambre double : 75€"
+      - "Une suite familiale pouvant accueillir 4 personnes : 100€"
+      - "Possibilité de rajouter un lit d'enfant supplémentaire : 10€)"
+  
+
+- name: "Gîte ou chambre d'hôtes Vilespy, Caraman"
+  distance: "4km du Château"
+  details:
+        - "Contact : Mme Vilespy +33 5 61 83 22 79 et +33 6 85 42 07 71"
+  
+- name: "Gîte Les Roses d'Autan"
+  distance: "5km du Château"
+  url: "https://www.gites-de-france.com/location-vacances-Auriac-sur-vendinelle-Gite-Les-Roses-D-autan-31G100809.html"
+  details:
+      - "3 chambres pour 6 personnes; 3 épis" 
+      - "A partir de 500€ la semaine" 
+      
+     
+- name: "La Joncasse Haute"
+  distance: "5km du Château"
+  url: "http://www.joncasse-haute.fr/"
+  details:
+      - "Cinq chambres sont à votre disposition: 45-95€" 
+      
+      
+- name: "Mr et Mme HALBEDEL à Cambiac"
+  distance: "5km du Château"
+  details:
+      - "Contactez : + 33 5 62 18 53 37"
+      
+      
+- name: "Le Mas de Briquepierre"
+  distance: "7km du Château"
+  url: "http://www.lemasdebriquepierre.fr/"
+  details:
+      - "3 chambres d’hotes de 2 personnes avec petits-déjeuner : 55-85€" 
+      - "Personne additionnelle: supplément de 20€/nuit."
+      - "Location en formule Gîte (150 m2) : 3 chambres avec cuisine et pièce à vivre: 815 euros/semaine"
+
+
+
+
+
+- name: "B&B La Ferme de Loubens"
+  distance: "9km du Château"
+  url: "http://lafermedeloubens.blogspot.ca/"
+  details:
+      - "5 chambres 65-105€/nuit (petit-déjeuner inclus)"
+      - "3 épis"
+      - "Gratuit pour les enfants de moins de 2 ans (lit bébé)"
+
+
+- name: "La Maynade"
+  distance: "12km du Château"
+  url: "http://www.la-maynade-31.fr/"
+  details:
+      - "3 chambres d'hôtes: 70€/nuit"
+      - "Un gîte loft pour 4pers, et roulotte pour 2pers chacun cuisine privée: 90-120€/nuit"
+      - "Lit supplémentaire: 30€"
+      
+
+- name: "la Tarabelloise"
+  distance: "13km du Château"
+  url: "https://www.gites-de-france.com/location-vacances-Tarabel-Gite-La-Tarabelloise-31G101271.html"
+  details:
+      - "2 chambres, 5 personnes : 65-90€/nuit; 3 épis" 
+
+
+- name: "La Bastide de Lanta"
+  distance: "13km du Château"
+  url: https://fr.tripadvisor.ca/Hotel_Review-g6468657-d6410945-Reviews-Chambres_d_Hotes_La_Bastide_de_Lanta-Lanta_Haute_Garonne_Occitanie.html
+  details:
+      - "Établissement de charme"
+      - "Contacter Madame Galy +33 5 61 83 87 93 et +33 6 42 58 63 19"
+
+
+- name: "Domaine de Combe Ramond"
+  distance: "18 km du Château"
+  url: "http://www.comberamond.com/"
+  details:
+      -
+
+
+
+      
+      
+      
