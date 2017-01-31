@@ -10,7 +10,8 @@ layout: null
                          
         {% for e in site.data.hotels %}
         <div class="ts-location row">
-            <div class="ts-title col-md-10 bold400"><a href="{{e.url}}">{{e.name}}</a></div>
+           <div class="ts-title col-md-10"><span class="bold400">{{e.name}}</span>{% if e.url %}<a href="{{e.url}}"> [site]</a>{% endif %}
+           </div>
             <div class="ts-distance col-md-2">{{e.distance}}</div>
             <div class="ts-details col-md-12">
                 <ul>

@@ -2,8 +2,8 @@
   distance: "500 m"
   url: "http://www.lelacdecrivito.eu/"
   details:
-      - "4 chambres d’hôtes (2-4 pers)"
-      - "100–120€"
+      - "4 chambres (2-4 pers.) d’hôtes labellisées 4 épis aux Gîtes de France"
+      - "100-120€"
       - "Min. 3 nuits"
       
 
@@ -154,10 +154,9 @@
   details:
       - "2 chambres, 5 personnes : 65-90€/nuit; 3 épis"
       
-
- - name: "Chambre d’hôtes la Perlette, Brigitte et Francis Diet à Tarabel"
-   distance: "13 km"
-   details:
+- name: "Chambre d’hôtes la Perlette, Brigitte et Francis Diet à Tarabel"
+  distance: "13 km"
+  details:
        - "Tel : + 33 5 81 60 38 76"
        - "Email : brigitte.diet@cegetel.net"
        - "3 chambres"
