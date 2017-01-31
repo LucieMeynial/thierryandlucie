@@ -1,12 +1,12 @@
 - name: "L'Oustal du Lauragais ***"
-  distance: "16km du Château"
+  distance: "16 km"
   url: "http://www.oustal-lauragais.fr/"
   details:
       - "69-80€/nuit"
 
 
 - name: "Hôtel Cuq-en-terrasses ***"
-  distance: "16km du Château"
+  distance: "16 km"
   url: "http://www.hotel-restaurant-la-bombardiere.fr/mobile/"
   details:
       - "6 chambres et une suite"
@@ -14,7 +14,7 @@
 
 
 - name: "Hôtel Restaurant La Bombardière **"
-  distance: "20km du Château"
+  distance: "20 km"
   url: "http://www.hotel-restaurant-la-bombardiere.fr/mobile/"
   details:
       - "28 chambres, confort 2 étoiles, toutes équipées d'une salle de bain"
