@@ -19,19 +19,19 @@
 - name: "Petit Gite"
   price: "45€/personne et 20€/enfant"
   details: 
-      - "3 chambres"
+      - "2 chambres et un salon chambre"
       - "lit 140 x 190"
       - "lit 140 x 190"
-      - "2 lits 90x 190"
-      - "salle de bain et toilettes communes pour le Petit Gite"
+      - "2 lits 90x 190 dans salon-cuisine"
+      - "salle de bain et toilettes communes"
       
 - name: "Grand Gite"
   price: "45€/personne et 20€/enfant"
   details:
       - "3 chambres et un salon"
-      - "lit 160 x 190"
+      - "lit 160 x 190 avec salle de bain privative"
       - "lit 140 x 190"
       - "lit 140 x 190"
       - "un canapé lit au rez-de-chaussée (offert)"
-      - "salle de bain et toilettes communes pour le Petit Gite"
+      - "salle de bain et toilettes communes pour 2 chambres"
       

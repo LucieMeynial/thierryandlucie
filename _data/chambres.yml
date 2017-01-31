@@ -1,8 +1,8 @@
-- name: "Le Lac de Crivito"
+- name: "Le Lac de Crivito - 4 épis"
   distance: "500 m"
   url: "http://www.lelacdecrivito.eu/"
   details:
-      - "4 chambres (2-4 pers.) d’hôtes labellisées 4 épis aux Gîtes de France"
+      - "4 chambres d’hôtes (2-4 pers)"
       - "100–120€"
       - "Min. 3 nuits"
       
@@ -14,43 +14,84 @@
       - "Lieu de charme et d'exception" 
       - "Une chambre double : 75€"
       - "Une suite familiale pouvant accueillir 4 personnes : 100€"
-      - "Possibilité de rajouter un lit d'enfant supplémentaire : 10€)"
+      - "Possibilité de rajouter un lit d'enfant supplémentaire : 10€"
   
+  
+- name: "Gîte rural Le Cavalier à Caraman – 3 épis"
+  distance: "4 km"
+  url: "http://giroudonsophie.wixsite.com/gite"
+  details:
+      - "Ancienne ferme du XVIIIème siècle, à 1,5 km du centre du village"
+      - "Gîte de 92 m², d'une capacité de 4 à 5 personnes"
+      - "Location à la semaine"
+
 
 - name: "Gîte ou chambre d'hôtes Vilespy, Caraman"
   distance: "4 km"
   details:
-        - "Contact : Mme Vilespy +33 5 61 83 22 79 et +33 6 85 42 07 71"
+      - "Contact : Mme Vilespy +33 5 61 83 22 79 et +33 6 85 42 07 71"
   
   
 - name: "Chez Claudine & Serge chambres d’hôtes, Caraman"
   distance: "4 km"
   details:
-        - "2 chambres de 2 personnes + 1 chambre de 4 personnes" 
-        - "Nuitée pour une personne : 40€"
-        - "Nuitée pour 2 personnes : 50€"
-        - "Nuitée pour 4 personnes (chambre familiale) : 80€"
+      - "2 chambres de 2 personnes + 1 chambre de 4 personnes" 
+      - "Nuitée pour une personne : 40€"
+      - "Nuitée pour 2 personnes : 50€"
+      - "Nuitée pour 4 personnes (chambre familiale) : 80€"
   
   
-- name: "Gîte Les Roses d'Autan"
+- name: "Gîte rural La Guarrigue à Caraman – 3 épis"
+  distance: "5 km"
+  url: "https://fr.airbnb.ca/rooms/7504636"
+  details:
+      - "2 gîtes séparés, pouvant accueillir 21 personnes au total (voir plus avec canapé lit)"
+  
+  
+- name: "Gîte rural Ticole à Caraman – 4 épis"
+  distance: "5 km"
+  url: "http://gdf31.erinoru.b2f-concept.net/pdf/HGL352.pdf"
+  details:
+      - "Tel : +33 5  61 99 44 10"
+      - "4 chambres 7 personnes"
+      - "À partir de 650€ la semaine"
+   
+   
+- name: "Gîte la Rastelle à Auriac sur Vendinelle – 3 épis"
+  distance: "5 km"
+  url: "http://julien.elies.free.fr/index.htm"
+  details:
+      - "Gîte confortable et chaleureux pouvant recevoir jusqu'à 7 personnes"
+      - "Location à la semaine ou le temps d'un week-end"
+      - "Tel / Fax : 05 61 83 18 24 ou Tel : 05 63 50 18 22 Mail : contact@rastelle.net"
+      
+      
+- name: "Gite Les Fermes des Collines à Auriac sur Vendinelle"
+  distance: "5 km"
+  details:
+      - "Contactez Dany et Hubert MITTOU ; Tel : +33 5 61 83 53 92 - Mobile : +33 6 28 29 23 31"
+      - "3 chambres de 2 personnes"
+  
+  
+- name: "Gîte Les Roses d'Autan – 3 épis"
   distance: "5 km"
   url: "https://www.gites-de-france.com/location-vacances-Auriac-sur-vendinelle-Gite-Les-Roses-D-autan-31G100809.html"
   details:
-      - "3 chambres pour 6 personnes; 3 épis" 
-      - "A partir de 500€ la semaine" 
+      - "3 chambres pour 6 personnes" 
+      - "À partir de 500€ la semaine" 
       
      
 - name: "La Joncasse Haute"
   distance: "5 km"
   url: "http://www.joncasse-haute.fr/"
   details:
-      - "Cinq chambres sont à votre disposition: 45-95€" 
+      - "5 chambres sont à votre disposition: 45-95€" 
       
       
 - name: "Mr et Mme HALBEDEL à Cambiac"
   distance: "5 km"
   details:
-      - "Contactez : + 33 5 62 18 53 37"
+      - "Contact : + 33 5 62 18 53 37"
       
        
 - name: "La ferme d’en pecoul, Cambiac"
@@ -68,18 +109,34 @@
   distance: "7 km"
   url: "http://www.lemasdebriquepierre.fr/"
   details:
-      - "3 chambres d’hotes de 2 personnes avec petits-déjeuner : 55-85€" 
-      - "Personne additionnelle: supplément de 20€/nuit."
-      - "Location en formule Gîte (150 m2) : 3 chambres avec cuisine et pièce à vivre: 815 euros/semaine"
+      - "3 chambres d’hotes de 2 personnes avec petit-déjeuner : 55-85€" 
+      - "Personne additionnelle: supplément de 20€/nuit"
+      - "Location en formule Gîte (150 m2) : 3 chambres avec cuisine et pièce à vivre : 815€/semaine"
+      
+
+- name: "Gîte chez Bernie à Caraman"
+  distance: "7 km"
+  url: "http://www.mairie-caraman.fr/les_hebergements.asp"
+  details:
+      - "Téléphone : + 33 6 99 80 02 80"
+      - "bernadette.martin1@ac-toulouse.fr"
 
 
-- name: "B&B La Ferme de Loubens"
+- name: "B&B La Ferme de Loubens – 3 épis"
   distance: "9 km"
   url: "http://lafermedeloubens.blogspot.ca/"
   details:
       - "5 chambres 65-105€/nuit (petit-déjeuner inclus)"
       - "3 épis"
       - "Gratuit pour les enfants de moins de 2 ans (lit bébé)"
+
+
+- name: "La sauge bleue à Caraman"
+  distance: "10 km"
+  url: "http://www.lasaugebleue.fr/"
+  details:
+      - "3 grandes chambres d'hôtes dans une ancienne ferme rénovée au coeur des collines du Lauragais"
+      - "60 à 70€/nuit, petit déjeuner compris"
 
 
 - name: "La Maynade"
@@ -89,7 +146,7 @@
       - "3 chambres d'hôtes: 70€/nuit"
       - "Un gîte loft pour 4pers, et roulotte pour 2pers chacun cuisine privée: 90-120€/nuit"
       - "Lit supplémentaire: 30€"
-      
+     
       
 - name: "la Tarabelloise"
   distance: "13 km"
@@ -111,15 +168,35 @@
   url: "https://fr.tripadvisor.ca/Hotel_Review-g6468657-d6410945-Reviews-Chambres_d_Hotes_La_Bastide_de_Lanta-Lanta_Haute_Garonne_Occitanie.html"
   details:
       - "Établissement de charme"
-      - "Contacter Madame Galy +33 5 61 83 87 93 et +33 6 42 58 63 19"
+      - "Contactez Madame Galy : +33 5 61 83 87 93 ou +33 6 42 58 63 19"
 
 
-- name: "Gîte et Chambres d’hôtes O Pastel, Carine et Laurent Gouaze à Banniere"
+- name: "Chambres d'hôtes La Chevreuloise à Loubens Lauragais"
+  distance: "13 km"
+  url: "http://www.mairie-caraman.fr/les_hebergements.asp"
+  details:
+      - "Monique et Gérard Montserret : Tel : +33 5 61 83 53 78 ou + 33 6 87 85 08 68"
+      - "cheuvreloise@gmail.com"
+      - "Deux vastes suites familiales composées chacune de deux chambres mitoyennes et d'une salle d'eau commune. Calme et confortable. Petit déjeuner compris."
+      - "À partir de 85€/nuit"
+
+
+- name: "Gîte rural de la Maison d'Autan"
+  distance: "13 km"
+  url: "http://www.lauragais-tourisme.fr/preparez-votre-sejour/ou-dormir/meubles-de-tourisme/505203-la-maison-dautan"
+  details:
+      - "3 chambres; 6 personnes"
+      - "Vue exceptionnelle sur la campagne lauragaise. Environnement très calme et très fleuri. Idéal pour famille"
+      - "Monique et Gérard Montserret : Tel : +33 5 61 83 53 78 ou + 33 6 87 85 08 68"
+      - "maisondautan@gmail.com"
+      - "De 600€ à 1300€ la semaine selon la saison"
+
+
+- name: "Gîte et chambres d’hôtes O Pastel, Carine et Laurent Gouaze à Banniere"
   distance: "16 km"
   url: "http://www.chambresdhotes.org/english/Detailed/6992.html"
   details:
-      - "Tel : +33 5 63 34 89 28 / + 33 6 03 96 99 18"
+      - "Tel : +33 5 63 34 89 28 ou + 33 6 03 96 99 18"
       - "1 chambre de 4 + lit bébé : 75 à 100€"
       - "1 chambre de 4 : 65 à 90€"
       - "1 chambre de 4 : 65 à 90€"
-      
