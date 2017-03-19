@@ -171,7 +171,7 @@
 		//=======================================================================================
 	var contentString1 = ''+
 	'<div class="info-window-wrapper">'+
-		'<h5>15h00 Cérémonie Religieuse</h5>'+
+		'<h5>14h30 Cérémonie Religieuse</h5>'+
 		'<div class="info-window-desc">Cathédrale Saint-Etienne, Toulouse<br/><a href="https://www.google.ca/maps/place/Saint+Stephen\'s+Cathredal/@43.599905,1.4483241,17z/data=!3m1!4b1!4m5!3m4!1s0x12aebc9b492164d5:0x7fa6cb236d2a83da!8m2!3d43.599905!4d1.4505181" class="with-underline">cliquez ici</a></div>'+
   	'</div>';
         
